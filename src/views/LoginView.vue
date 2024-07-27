@@ -176,4 +176,19 @@ button {
     font-size: 16px;
     top: 2px;
 }
+
+.main span {
+    position: relative;
+}
+
+.main el-icon {
+    position: absolute;
+    top: 50%;
+    /* 垂直居中 */
+    transform: translateY(-50%);
+    /* 垂直居中 */
+    left: 15px;
+    color: #333;
+    font-size: 16px;
+}
 </style>>

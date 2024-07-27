@@ -1,10 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html,body{
     height: 100%;
+    overflow: hidden;
 }
 
 body{
@@ -15,5 +17,9 @@ body{
 	background-position: top 1% left, left bottom;	
     /* 溢出隐藏 */
 	overflow: hidden;
-	background-size: 15% auto,contain;
+	background-size: auto 10%,100% 88%;
+    background-attachment: fixed;
+    height: 80vh;
+    flex: 0;
+
 }

@@ -14,7 +14,8 @@ import IconsResolver from "unplugin-icons/resolver"
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? '/TMi/' : '/',
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    sourcemap: true
   },
   plugins: [
     vue(),
