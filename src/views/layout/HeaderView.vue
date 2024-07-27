@@ -21,7 +21,7 @@ onMounted(() => {
     <el-header class="header">
         <el-dropdown>
             <span class="el-dropdown-link">
-                <el-avatar :size="50" :src="'../../src/assets/user-icon.png'" />
+                <el-avatar :size="50" :src="'/user-icon.png'" />
             </span>
             <template #dropdown>
                 <el-dropdown-menu style="list-style-type: none;">
