@@ -1,0 +1,21 @@
+/* 针对历史记录部分的样式 */
+.custom-history-menu .el-sub-menu__title {
+    font-size: 25px; /* 设置字体大小 */
+    color: #f6f6f6; /* 设置文字颜色 */
+    background-color: #2d2d2d00; /* 背景颜色 */
+    // margin-right: 10%;
+}
+/* 鼠标悬停时的样式 */
+.custom-history-menu .el-sub-menu:hover .el-sub-menu__title {
+    background-color: #7d7a7a; /* 背景颜色 */
+    color: #f6f6f6; /* 文字颜色 */
+}
+
+/* 可选: 为子菜单项也设置样式 */
+.custom-history-menu .el-sub-menu__title:hover {
+    background-color: #7d7a7a; /* 鼠标悬停时的背景颜色 */
+    color: #f6f6f6; /* 鼠标悬停时的文字颜色 */
+    
+}
+
+

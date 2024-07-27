@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+	background-image: url(logo.jpg),url(background.jpg);
+	background-color: #2f68ab;
+    background-repeat: no-repeat;
+	background-position: top 1% left, left bottom;	
+    /* 溢出隐藏 */
+	overflow: hidden;
+	background-size: 15% auto,contain;
+}
